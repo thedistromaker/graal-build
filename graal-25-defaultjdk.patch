@@ -9,3 +9,4 @@ index aacec240..08392fc7 100644
 +  "default_jdks" : ["labsjdk-ee-latest", "labsjdk-ce-latest"],
    "jdks": {
      "galahad-jdk":        {"name": "jpg-jdk",   "version": "25",      "build_id": "jdk-25+26-3156", "platformspecific": true, "extrabundles": ["static-libs"]},
+ 
