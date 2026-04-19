@@ -1,0 +1,11 @@
+diff --git a/common.json b/common.json
+index aacec240..08392fc7 100644
+--- a/common.json
++++ b/common.json
+@@ -7,6 +7,7 @@
+   "mx_version": "7.54.6.1",
+ 
+   "COMMENT.jdks": "When adding or removing JDKs keep in sync with JDKs in ci/common.jsonnet",
++  "default_jdks" : ["labsjdk-ee-latest", "labsjdk-ce-latest"],
+   "jdks": {
+     "galahad-jdk":        {"name": "jpg-jdk",   "version": "25",      "build_id": "jdk-25+26-3156", "platformspecific": true, "extrabundles": ["static-libs"]},
